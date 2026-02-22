@@ -1,0 +1,78 @@
+{
+  "id": "T-1",
+  "title": "Studying 2",
+  "theme": "orange",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Studying 2",
+      "subtitle": "Practical techniques to learn — not just review",
+      "bullets": ["Make your study sessions produce real memory and skill"],
+      "note": "Deck by T-1 — orange theme"
+    },
+    {
+      "title": "The Problem",
+      "bullets": [
+        "Most people 'study,' but don’t learn.",
+        "Re-reading notes feels productive, but it doesn’t stick.",
+        "Highlighting makes you familiar, not fluent.",
+        "Real learning happens when your brain has to retrieve and apply."
+      ],
+      "note": "If studying feels easy, it’s probably not working."
+    },
+    {
+      "title": "The 3 Rules of Effective Study",
+      "bullets": [
+        "Active recall: force your brain to pull information out.",
+        "Spaced repetition: revisit over time, not in one big block.",
+        "Deliberate practice: target what you get wrong, not what you already know."
+      ],
+      "note": "These three are the difference between 'I saw it' and 'I can do it.'"
+    },
+    {
+      "title": "Active Recall — What to Do",
+      "bullets": [
+        "Blurting: close notes → write everything you remember → check gaps.",
+        "Practice questions: use exam-style problems, not summaries.",
+        "Teach-back: explain the concept as if tutoring someone."
+      ],
+      "timedSteps": [
+        "Quick example: Instead of 'read the chapter,' do: 'Answer 10 questions, then mark and fix errors.'"
+      ]
+    },
+    {
+      "title": "Spacing & Interleaving — How to Schedule",
+      "bullets": [
+        "Spacing: shorter sessions over multiple days beats cramming.",
+        "Schedule: Day 0: learn • Day 1: recall • Day 3: recall again • Day 7: mixed practice.",
+        "Interleaving: mix topics — don’t grind one topic for hours.",
+        "It feels harder in the moment — that difficulty means it’s working better."
+      ]
+    },
+    {
+      "title": "The Feedback Loop — How to Improve Fast",
+      "bullets": [
+        "After every session ask: What did I get wrong? Why?",
+        "Identify repeating patterns: they are your study plan.",
+        "Rule: Spend ~70% of time on weak areas, 30% on review."
+      ]
+    },
+    {
+      "title": "A Simple 45-Min Study Template",
+      "timedSteps": [
+        "0–5 min: set a specific goal (outcome-focused).",
+        "5–25 min: active recall — answer questions.",
+        "25–35 min: mark answers and log errors.",
+        "35–45 min: re-attempt wrong questions + schedule next review."
+      ],
+      "note": "No fancy motivation needed—just a system."
+    },
+    {
+      "title": "Closing",
+      "bullets": [
+        "Effective studying isn’t about time. It’s about technique.",
+        "If you make only one change: swap re-reading for retrieval (practice questions + recall), then space it out."
+      ]
+    }
+  ]
+}
