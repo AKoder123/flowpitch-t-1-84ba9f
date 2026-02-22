@@ -1,0 +1,38 @@
+:root{
+  --bg:#fff7f0;
+  --card:#ffffff;
+  --accent:#ff7a18; /* orange */
+  --muted:#6b6b6b;
+  --shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+*{box-sizing:border-box}
+html,body,#app{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;}
+body{background:linear-gradient(180deg,var(--bg),#fff);color:#222}
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:12px 18px;border-bottom:1px solid #ffd9bf;background:transparent}
+.brand{font-weight:700;color:var(--accent);letter-spacing:0.2px}
+.controls{display:flex;align-items:center;gap:12px}
+.controls button{background:transparent;border:1px solid rgba(0,0,0,0.06);padding:6px 10px;border-radius:8px;color:var(--muted);cursor:pointer}
+#progress{font-size:13px;color:var(--muted)}
+#stage{display:flex;align-items:center;justify-content:center;height:calc(100% - 110px);padding:20px}
+.slide{width:100%;max-width:980px;background:var(--card);border-radius:14px;padding:36px;box-shadow:var(--shadow);position:relative}
+.slide.cover{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;min-height:380px}
+.title{font-size:28px;color:#222;margin:0 0 12px}
+.subtitle{font-size:15px;color:var(--muted);margin:0 0 18px}
+.list{margin:8px 0 0;padding-left:18px}
+.list li{margin:8px 0;font-size:16px;color:#2b2b2b;line-height:1.45}
+.small{font-size:14px;color:var(--muted)}
+.speaker{margin-top:18px;padding:12px 14px;border-left:4px solid var(--accent);background:linear-gradient(90deg, rgba(255,122,24,0.03), transparent);border-radius:8px;color:#4b2b00}
+.footer{padding:8px 18px;color:var(--muted);font-size:13px}
+.nav{position:absolute;top:50%;transform:translateY(-50%);background:transparent;border:0;font-size:30px;color:var(--accent);width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.nav.left{left:-18px}
+.nav.right{right:-18px}
+@media (max-width:700px){
+  .slide{padding:20px;border-radius:10px}
+  .title{font-size:20px}
+  .nav.left{left:6px}
+  .nav.right{right:6px}
+  .slide{min-height:60vh}
+}
+/* small progress indicator */
+.progressbar{height:6px;background:#ffe8d8;border-radius:999px;overflow:hidden;margin-top:18px}
+.progressbar > i{display:block;height:100%;background:var(--accent);width:0%}
