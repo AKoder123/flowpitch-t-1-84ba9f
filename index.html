@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Studying 2 — Deck</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">Studying 2</div>
+      <div class="controls">
+        <button id="notesToggle" aria-pressed="false">Notes</button>
+        <div id="progress">0 / 0</div>
+      </div>
+    </header>
+
+    <main id="stage">
+      <button id="prev" class="nav left" aria-label="Previous">‹</button>
+      <section id="slide" class="slide" role="group" aria-roledescription="slide" aria-label="Slide"></section>
+      <button id="next" class="nav right" aria-label="Next">›</button>
+    </main>
+
+    <footer class="footer">
+      <div id="hint">← → or swipe • Tap "Notes" to show speaker lines</div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
